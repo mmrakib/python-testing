@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-testing"
+version = "0.1.0"
+description = "A monorepo containing test code related to Python and its libraries."
+authors = ["mmrakib <mohammadmrakib@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.3"
+pandas = "^2.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
